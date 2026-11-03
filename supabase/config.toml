@@ -1,0 +1,64 @@
+project_id = "yxswfzdcunpoptixnnpz"
+
+[functions.chat]
+verify_jwt = false
+
+[functions.firecrawl-search]
+verify_jwt = false
+
+[functions.admin-ai]
+verify_jwt = false
+
+[functions.code-generator]
+verify_jwt = false
+
+[functions.transcribe-audio]
+verify_jwt = false
+
+[functions.realtime-voice]
+verify_jwt = false
+
+[functions.elevenlabs-conversation-token]
+verify_jwt = false
+
+[functions.search-images]
+verify_jwt = false
+
+[functions.manage-credits]
+verify_jwt = false
+
+[functions.firecrawl-scrape]
+verify_jwt = false
+
+[functions.impersonate-user]
+verify_jwt = false
+
+[functions.lemon-checkout]
+verify_jwt = false
+
+[functions.lemon-webhook]
+verify_jwt = false
+
+[functions.payflow-webhook]
+verify_jwt = false
+
+[functions.payflow-checkout]
+verify_jwt = false
+
+[functions.process-email-queue]
+verify_jwt = true
+
+[functions.send-reengagement-emails]
+verify_jwt = false
+
+[functions.send-brevo-email]
+verify_jwt = false
+
+[functions.site-backend]
+verify_jwt = false
+
+[functions.generate-pptx]
+verify_jwt = false
+
+[functions.research-chat]
+verify_jwt = false
