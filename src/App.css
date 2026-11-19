@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+/* ==========================================
+   ACTIVE EVENT — BACKGROUND THEME
+   ========================================== */
+
+html.event-active,
+html.event-active body {
+  background: var(--event-gradient) !important;
+  background-attachment: fixed !important;
+  min-height: 100%;
+}
+
+html.event-active body {
+  transition: background 0.5s ease;
+}
