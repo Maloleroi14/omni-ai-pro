@@ -158,6 +158,8 @@ function AppContent() {
   const [maintenanceChecked, setMaintenanceChecked] = useState(false);
   const maintenanceEnabledRef = useRef(false);
   const activeEvent = useActiveEvent();
+  console.log("TEST OMNIAI : AppContent fonctionne");
+console.log("ÉVÉNEMENT :", activeEvent);
   useEffect(() => {
   console.log("ÉVÉNEMENT ACTIF :", activeEvent);
   console.log("GRADIENT :", activeEvent?.styles?.background_gradient);
