@@ -292,7 +292,17 @@ const Index = () => {
 
   return (
     <div className={cn(
-      "flex h-screen bg-gradient-to-br from-background via-background to-muted/30 grain-overlay",
+      <div
+  className={cn(
+    "flex h-screen grain-overlay",
+    !activeEvent && "bg-gradient-to-br from-background via-background to-muted/30",
+    customization.layout === "compact" && "text-sm"
+  )}
+  style={activeEvent ? {
+    background: activeEvent.styles.background_gradient,
+    backgroundAttachment: "fixed"
+  } : undefined}
+>
       customization.layout === "compact" && "text-sm"
     )}>
       {/* Sidebar */}
