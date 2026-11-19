@@ -158,6 +158,10 @@ function AppContent() {
   const [maintenanceChecked, setMaintenanceChecked] = useState(false);
   const maintenanceEnabledRef = useRef(false);
   const activeEvent = useActiveEvent();
+  useEffect(() => {
+  console.log("ÉVÉNEMENT ACTIF :", activeEvent);
+  console.log("GRADIENT :", activeEvent?.styles?.background_gradient);
+}, [activeEvent]);
   const [banMaintenanceActive, setBanMaintenanceActive] = useState(isBanMaintenanceActive());
 
   // On mount, async-check if ban was lifted and clear lockout
