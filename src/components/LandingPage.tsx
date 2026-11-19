@@ -453,7 +453,10 @@ export function LandingPage() {
       initial={{ x: swipeDir === "right" ? "100%" : swipeDir === "left" ? "-100%" : 0, opacity: swipeDir ? 0.5 : 1 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ type: "spring", stiffness: 300, damping: 30 }}
-      className="min-h-screen bg-background text-foreground overflow-x-hidden grain-overlay"
+      style={{
+  background: "var(--event-gradient, hsl(var(--background)))",
+  backgroundAttachment: "fixed",
+}}
     >
 
       {/* Nav - scroll-aware */}
