@@ -176,6 +176,8 @@ console.log("ÉVÉNEMENT :", activeEvent);
     });
   }, []);
   useEffect(() => {
+    console.log("EVENT:", activeEvent);
+console.log("GRADIENT:", activeEvent?.styles?.background_gradient);
     if (!activeEvent) {
       document.documentElement.style.removeProperty("--primary");
       document.documentElement.style.removeProperty("--ring");
