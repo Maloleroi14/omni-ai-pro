@@ -475,3 +475,24 @@ All colors MUST be HSL.
 .animate-scroll-x:hover {
   animation-play-state: paused;
 }
+
+/* ==========================================
+   GLOBAL EVENT BACKGROUND
+   ========================================== */
+
+html.event-active {
+  min-height: 100%;
+  background: var(--event-gradient) fixed !important;
+}
+
+html.event-active body {
+  min-height: 100vh;
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+html.event-active #root {
+  min-height: 100vh;
+  background: transparent !important;
+}
+
