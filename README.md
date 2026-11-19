@@ -4,7 +4,7 @@ Je veut que tu me cree une ia qui peut tout faire , tout deviner tout tout tout 
 
 This project was built with [Lovable](https://lovable.dev).
 
-**Live app**: https://omni-pro.lovable.app
+**Live app**: https://www.omni-ai-pro.com
 
 ## Build with Lovable
 
